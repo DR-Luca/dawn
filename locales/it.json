@@ -3,7 +3,7 @@
     "password_page": {
       "login_form_heading": "Accedi al negozio utilizzando la password:",
       "login_password_button": "Accedi utilizzando la password",
-      "login_form_password_label": "Password",
+      "login_form_password_label": "Password del sito",
       "login_form_password_placeholder": "La tua password",
       "login_form_error": "Password errata!",
       "login_form_submit": "Accedi",
