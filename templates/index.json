@@ -24,6 +24,24 @@
         "1647342268f514b80c-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/dermalogica-x-cadmi.jpg",
+            "heading": "Dermalogica e CADMI insieme per le donne",
+            "heading_size": "h1",
+            "subheading": "Per ogni acquisto Dermalogica devolverà il 10% alla Casa di Accoglienza delle Donne Maltrattate di Milano",
+            "button_label": "SOSTIENI L'INIZIATIVA",
+            "link": "shopify:\/\/blogs\/la-tua-pelle\/dermalogica-e-cadmi-insieme-per-le-donne",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a154e8c9-0268-4f62-96e7-d4bbaedac75e": {
+          "type": "slide",
+          "settings": {
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -41,7 +59,8 @@
       },
       "block_order": [
         "1647342268f514b80c-0",
-        "1647342268f514b80c-1"
+        "1647342268f514b80c-1",
+        "a154e8c9-0268-4f62-96e7-d4bbaedac75e"
       ],
       "settings": {
         "layout": "full_bleed",
