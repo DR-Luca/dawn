@@ -42,16 +42,17 @@
         "a154e8c9-0268-4f62-96e7-d4bbaedac75e": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/dermalogica-trattamenti-pro-power-eye-peel.jpg",
+            "heading": "Prova l'esperienza di una pelle rigenerata.",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Scopri i trattamenti professionali di Dermalogica, per soddisfare tutte le esigenze della tua pelle",
+            "button_label": "SCOPRI DI PIÙ",
+            "link": "shopify:\/\/collections\/i-nostri-trattamenti",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
