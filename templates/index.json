@@ -126,11 +126,75 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "1647352120eadc7721": {
+      "type": "multicolumn",
+      "blocks": {
+        "1647352120e3b26080-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>SPEDIZIONI GRATUITE<\/strong><\/p><p>sugli ordini pari o superiori a 39 euro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647352120e3b26080-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>SPEDIZIONI GRATUITE<\/strong><\/p><p>sugli ordini pari o superiori a 39 euro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647352120e3b26080-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>SPEDIZIONI GRATUITE<\/strong><\/p><p>sugli ordini pari o superiori a 39 euro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "241728f7-dfbb-4d9e-a58a-a1754924f81d": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>SPEDIZIONI GRATUITE<\/strong><\/p><p>sugli ordini pari o superiori a 39 euro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647352120e3b26080-0",
+        "1647352120e3b26080-1",
+        "1647352120e3b26080-2",
+        "241728f7-dfbb-4d9e-a58a-a1754924f81d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1647342269c78ebc95",
     "rich_text",
-    "featured_collection"
+    "featured_collection",
+    "1647352120eadc7721"
   ]
 }
