@@ -1858,6 +1858,7 @@
           "options__1": {
             "label": "One-third width of column"
           },
+          "svg_icon": "Icon"
           "options__2": {
             "label": "Half width of column"
           },
