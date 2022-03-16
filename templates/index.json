@@ -212,12 +212,93 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "1647423259eac246cb": {
+      "type": "multicolumn",
+      "blocks": {
+        "1647423259aa8d28e1-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Professional-Grade_180x_6a9589be-6a8b-4105-ae36-d494be17bbea.png",
+            "svg_icon": "",
+            "title": "",
+            "text": "<p>Più di 35 anni di esperienza professionale<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647423259aa8d28e1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cruelty-Free_180x_6fe56948-d578-4d38-85df-a994c79147a6.png",
+            "svg_icon": "",
+            "title": "",
+            "text": "<p>Certificato cruelty free da PETA e Leaping Bunny<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647423259aa8d28e1-2": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "",
+            "text": "<p>Prodotti senza fragranze o colorazioni artificiali<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9239751a-1f6f-43fe-be3e-032aa0112ac6": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "",
+            "text": "<p>Adatto ai vegani e i prodotti non contengono glutine<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6662c81e-d18c-4342-b4e7-4ec95a68adef": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "",
+            "text": "<p>90% packaging riciclabili e\/o biodegradabili<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647423259aa8d28e1-0",
+        "1647423259aa8d28e1-1",
+        "1647423259aa8d28e1-2",
+        "9239751a-1f6f-43fe-be3e-032aa0112ac6",
+        "6662c81e-d18c-4342-b4e7-4ec95a68adef"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "1647342269c78ebc95",
     "1647352120eadc7721",
     "16473527325c50e3c2",
-    "featured_collection"
+    "featured_collection",
+    "1647423259eac246cb"
   ]
 }
