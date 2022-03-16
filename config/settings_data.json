@@ -1,10 +1,10 @@
 {
   "current": {
-    "colors_solid_button_labels": "#5d92da",
+    "colors_solid_button_labels": "#1e1e1e",
     "colors_accent_1": "#5e93db",
-    "gradient_accent_1": "radial-gradient(rgba(108, 161, 255, 1), rgba(94, 147, 219, 1) 100%)",
-    "colors_accent_2": "#334fb4",
-    "gradient_accent_2": "",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#5b6871",
+    "gradient_accent_2": "linear-gradient(90deg, rgba(194, 194, 194, 1) 13%, rgba(193, 193, 193, 1) 86%)",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
