@@ -241,6 +241,7 @@
         "1647423259aa8d28e1-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/No_Fragrances_or_Artificial_Colors_180x_48a270c1-e79e-4132-817b-97496edffdcf.png",
             "svg_icon": "",
             "title": "",
             "text": "<p>Prodotti senza fragranze o colorazioni artificiali<\/p>",
@@ -251,6 +252,7 @@
         "9239751a-1f6f-43fe-be3e-032aa0112ac6": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/90_Recyclable_copie_2_180x_8466a73e-b046-4813-bfda-332c16a1e592.png",
             "svg_icon": "",
             "title": "",
             "text": "<p>Adatto ai vegani e i prodotti non contengono glutine<\/p>",
@@ -261,6 +263,7 @@
         "6662c81e-d18c-4342-b4e7-4ec95a68adef": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/90_Recyclable_180x_44c49ae0-3bb7-4230-8c36-df5bcd28b32d.png",
             "svg_icon": "",
             "title": "",
             "text": "<p>90% packaging riciclabili e\/o biodegradabili<\/p>",
@@ -277,11 +280,11 @@
         "6662c81e-d18c-4342-b4e7-4ec95a68adef"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
+        "title": "Il nostro impegno",
+        "heading_size": "h2",
+        "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
