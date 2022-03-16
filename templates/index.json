@@ -356,6 +356,7 @@
         "16474278765233488b-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/dermalogica-face-mapping_ccc8b877-ee7f-4347-a011-41d5a334f5ab.jpg",
             "svg_icon": "",
             "title": "Con Face Mapping la tua analisi della pelle personalizzata è a portata di un click!",
             "text": "<p>Scatta un selfie e lascia che la nostra tecnologia ti aiuti a ottenere la tua pelle migliore di sempre.<\/p>",
@@ -366,6 +367,7 @@
         "16474278765233488b-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/proskin-30_20690f07-e6fb-4a9c-81a2-270f7702a0a1.jpg",
             "svg_icon": "",
             "title": "Prova l'esperienza di una pelle rigenerata grazie alle nostre Professional Skin Therapist.",
             "text": "<p>Scopri il trattamento Dermalogica più in linea con le tue esigenze, in base al servizio offerto nella tua città.<\/p>",
@@ -382,12 +384,69 @@
         "title": "",
         "heading_size": "h1",
         "subtitle": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "half",
+        "image_ratio": "portrait",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1647428401e5e149a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1647428401cc320b83-0": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647428401cc320b83-1": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1647428401cc320b83-2": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647428401cc320b83-0",
+        "1647428401cc320b83-1",
+        "1647428401cc320b83-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -404,6 +463,7 @@
     "featured_collection",
     "1647423259eac246cb",
     "1647427144b842bff7",
-    "1647427876bb3b0341"
+    "1647427876bb3b0341",
+    "1647428401e5e149a3"
   ]
 }
