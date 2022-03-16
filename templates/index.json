@@ -349,6 +349,52 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "1647427876bb3b0341": {
+      "type": "multicolumn",
+      "blocks": {
+        "16474278765233488b-0": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "Con Face Mapping la tua analisi della pelle personalizzata è a portata di un click!",
+            "text": "<p>Scatta un selfie e lascia che la nostra tecnologia ti aiuti a ottenere la tua pelle migliore di sempre.<\/p>",
+            "link_label": "PROVA ORA",
+            "link": "shopify:\/\/pages\/analisi-della-pelle-online-face-mapping"
+          }
+        },
+        "16474278765233488b-1": {
+          "type": "column",
+          "settings": {
+            "svg_icon": "",
+            "title": "Prova l'esperienza di una pelle rigenerata grazie alle nostre Professional Skin Therapist.",
+            "text": "<p>Scopri il trattamento Dermalogica più in linea con le tue esigenze, in base al servizio offerto nella tua città.<\/p>",
+            "link_label": "PRENOTA ORA",
+            "link": "shopify:\/\/collections\/i-nostri-trattamenti"
+          }
+        }
+      },
+      "block_order": [
+        "16474278765233488b-0",
+        "16474278765233488b-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -357,6 +403,7 @@
     "16473527325c50e3c2",
     "featured_collection",
     "1647423259eac246cb",
-    "1647427144b842bff7"
+    "1647427144b842bff7",
+    "1647427876bb3b0341"
   ]
 }
