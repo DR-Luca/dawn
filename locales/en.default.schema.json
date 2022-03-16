@@ -1933,6 +1933,9 @@
             "title": {
               "label": "Heading"
             },
+            "subtitle": {
+              "label": "Subheading"
+            },
             "text": {
               "label": "Description"
             },
