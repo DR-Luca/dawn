@@ -126,6 +126,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "subtitle": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -282,6 +283,7 @@
       "settings": {
         "title": "Il nostro impegno",
         "heading_size": "h2",
+        "subtitle": "Per la tua pelle migliore di sempre, senza compromessi",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 5,
