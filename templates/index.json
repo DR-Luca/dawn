@@ -83,7 +83,7 @@
             "title": "",
             "text": "<p><strong>SPEDIZIONI GRATUITE<\/strong><\/p><p>sugli ordini pari o superiori a 39 euro<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/costi-di-spedizione"
           }
         },
         "1647352120e3b26080-1": {
@@ -103,7 +103,7 @@
             "title": "",
             "text": "<p><strong>SERVIZI DIGITALI<\/strong><\/p><p>I nostri widget ti assistono nella scelta del prodotto più adatto a te<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/informativa-face-mapping"
           }
         },
         "241728f7-dfbb-4d9e-a58a-a1754924f81d": {
@@ -113,7 +113,7 @@
             "title": "",
             "text": "<p><strong>PAGAMENTI SICURI<\/strong><\/p><p>Effettua i tuoi ordini in totale serenità<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/informativa-sulla-privacy"
           }
         }
       },
