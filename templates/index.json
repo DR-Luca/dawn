@@ -301,6 +301,13 @@
     "1647427144b842bff7": {
       "type": "image-with-text",
       "blocks": {
+        "2d296b99-9293-48b0-82e9-2cf745024ee8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vuoi parlare direttamente con una nostra Professional Skin Therapist e vivere l'esperienza dello store Dermalogica da casa?<\/p>",
+            "text_style": "subtitle"
+          }
+        },
         "1647427143d2e04cd7-0": {
           "type": "heading",
           "settings": {
@@ -324,6 +331,7 @@
         }
       },
       "block_order": [
+        "2d296b99-9293-48b0-82e9-2cf745024ee8",
         "1647427143d2e04cd7-0",
         "1647427143d2e04cd7-1",
         "1647427143d2e04cd7-2"
