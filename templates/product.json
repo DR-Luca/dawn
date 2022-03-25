@@ -25,13 +25,6 @@
             "custom_liquid": "<p>{{ product.metafields.subtitle.one | capitalize }}<\/p>"
           }
         },
-        "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -54,10 +47,19 @@
           "settings": {
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Descrizione",
+            "icon": "price_tag",
+            "content": "<p>{{ product.metafields.description.one | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ingredients",
+            "heading": "Ingredienti",
             "icon": "clipboard",
             "content": "<p>{{ product.metafields.content.tab_2 | metafield_tag }}<\/p>",
             "page": ""
@@ -68,15 +70,6 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
             "content": "",
             "page": ""
           }
@@ -102,14 +95,13 @@
         "77583453-22ab-4d76-a4e7-deb0ed349154",
         "price",
         "2a4e38d6-b61a-4dd0-9015-910d79394027",
-        "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible-row-2",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "share"
       ],
