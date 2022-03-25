@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "77583453-22ab-4d76-a4e7-deb0ed349154": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.metafields.benefit.one }} - {{ product.metafields.benefit.two }} - {{ product.metafields.benefit.three }}"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -18,6 +24,13 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
           }
         },
         "variant_picker": {
@@ -87,8 +100,10 @@
       },
       "block_order": [
         "title",
+        "77583453-22ab-4d76-a4e7-deb0ed349154",
         "caption",
         "price",
+        "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -108,41 +123,6 @@
         "enable_video_looping": false,
         "padding_top": 32,
         "padding_bottom": 12
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -211,7 +191,6 @@
   },
   "order": [
     "main",
-    "image-with-text",
     "multicolumn",
     "product-recommendations"
   ]
