@@ -68,7 +68,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Spedizione",
             "icon": "truck",
             "content": "",
             "page": ""
@@ -77,7 +77,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "Uso Consigliato",
             "icon": "heart",
             "content": "",
             "page": ""
