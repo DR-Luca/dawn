@@ -432,8 +432,8 @@
               "info": "Välj om du inte vill att din bild beskärs."
             },
             "description": {
-              "label": "Alt-text för video",
-              "info": "Beskriv videon för att göra den tillgänglig för kunder som använder skärmläsare."
+              "label": "Alternativtext för video",
+              "info": "Beskriv videon för kunder som använder skärmläsare. [Mer information](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           },
           "name": "Video"
@@ -1996,8 +1996,8 @@
           "info": "Video spelas upp på sidan."
         },
         "description": {
-          "label": "Alt-text för video",
-          "info": "Beskriv videon för att göra den tillgänglig för kunder som använder skärmläsare."
+          "label": "Alternativtext för video",
+          "info": "Beskriv videon för kunder som använder skärmläsare. [Mer information](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Lägg till bild-padding",
