@@ -99,6 +99,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "67ea5f3c-a298-4a3c-9f02-b58b43b18949": {
+            "type": "announcement",
+            "settings": {
+              "text": "Spedizione Gratuita per ordini superiori ai 49€",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "67ea5f3c-a298-4a3c-9f02-b58b43b18949"
+        ],
         "settings": {
         }
       },
