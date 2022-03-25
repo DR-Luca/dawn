@@ -14,16 +14,15 @@
             "custom_liquid": "{{ product.metafields.benefit.one }} - {{ product.metafields.benefit.two }} - {{ product.metafields.benefit.three }}"
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "2a4e38d6-b61a-4dd0-9015-910d79394027": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>{{ product.metafields.subtitle.one | capitalize }}<\/p>"
           }
         },
         "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f": {
@@ -101,8 +100,8 @@
       "block_order": [
         "title",
         "77583453-22ab-4d76-a4e7-deb0ed349154",
-        "caption",
         "price",
+        "2a4e38d6-b61a-4dd0-9015-910d79394027",
         "cb40a1eb-6dc1-4321-8a4a-dc283a5ce88f",
         "variant_picker",
         "quantity_selector",
