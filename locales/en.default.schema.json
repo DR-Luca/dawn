@@ -1362,6 +1362,19 @@
           "label": "Enable filtering",
           "info": "Customize [filters](\/admin\/menus)"
         },
+        "filter_type": {
+          "label": "Desktop filter layout",
+          "options__1": {
+            "label": "Horizontal"
+          },
+          "options__2": {
+            "label": "Vertical"
+          },
+          "options__3": {
+            "label": "Drawer"
+          },
+          "info": "Drawer is the default mobile layout."
+        },
         "enable_sorting": {
           "label": "Enable sorting"
         },
@@ -1396,6 +1409,10 @@
         "enable_tags": {
           "label": "Enable filtering",
           "info": "[Customize filters](\/admin\/menus)"
+        },
+        "enable_quick_buy": {
+          "label": "Enable quick add button",
+          "info": "Optimal with popup or drawer cart type."
         },
         "collapse_on_larger_devices": {
           "label": "Collapse on desktop"
