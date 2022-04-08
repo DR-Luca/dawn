@@ -88,7 +88,7 @@
       </button>
       <template>
         {%- if section.settings.shopify_video != blank -%}
-          <video class="section-video" width="1600" height="900" autoplay muted loop>
+          <video class="section-video" width="1600" height="900" autoplay muted loop playsinline>
             <source src="{{ section.settings.shopify_video }}" type="video/mp4">
             Your browser is not supported to play the video!
           </video>
