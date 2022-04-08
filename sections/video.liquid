@@ -89,7 +89,7 @@
       <template>
         {%- if section.settings.shopify_video != blank -%}
           <video class="section-video" autoplay muted loop>
-            <source src="{{ section.settings.shopify_video | replace: 'https://', '' }}" type="video/mp4">
+            <source src="{{ section.settings.shopify_video }}" type="video/mp4">
             Your browser is not supported to play the video!
           </video>
         {%- elsif section.settings.video_url.type == 'youtube' -%}
