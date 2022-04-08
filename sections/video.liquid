@@ -92,8 +92,7 @@
             <source src="{{ section.settings.shopify_video | replace: 'https://', '' }}" type="video/mp4">
             Your browser is not supported to play the video!
           </video>
-        {% else %}
-        {%- if section.settings.video_url.type == 'youtube' -%}
+        {%- elsif section.settings.video_url.type == 'youtube' -%}
           <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
         {%- else -%}
           <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
