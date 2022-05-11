@@ -250,7 +250,8 @@
         "product": "Proizvod",
         "price": "Cijena",
         "total": "Ukupno",
-        "quantity": "Količina"
+        "quantity": "Količina",
+        "image": "Slika proizvoda"
       },
       "login": {
         "title": "Imate li račun?",

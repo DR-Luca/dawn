@@ -257,7 +257,8 @@
         "product": "Produkt",
         "price": "Cena",
         "total": "Celkem",
-        "quantity": "Množství"
+        "quantity": "Množství",
+        "image": "Obrázek produktu"
       },
       "login": {
         "title": "Máte účet?",
