@@ -429,6 +429,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1652438882dc75ffbd": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165243888201189264-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Flagship Store",
+            "icon": "map_pin",
+            "row_content": "<p>Via Fratelli Zoya, 43 20153 Milano<\/p><p>tel. 02-2152609<\/p><p>email. milano22.cima@afmspanet.it<\/p>",
+            "page": ""
+          }
+        },
+        "165243888201189264-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "165243888201189264-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "165243888201189264-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165243888201189264-0",
+        "165243888201189264-1",
+        "165243888201189264-2",
+        "165243888201189264-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -440,6 +501,7 @@
     "1647427144b842bff7",
     "1647427876bb3b0341",
     "16474284059b70eaab",
-    "16494274334ceb4de7"
+    "16494274334ceb4de7",
+    "1652438882dc75ffbd"
   ]
 }
