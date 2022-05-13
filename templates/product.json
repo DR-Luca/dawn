@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "928ad804-ad28-4a5b-b79f-da6847510aa6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2>{{ product.type }}<\/h2>"
+          }
+        },
         "35b6a1b6-897f-4ec2-8a90-0ee9d1268461": {
           "type": "rating",
           "settings": {
@@ -97,6 +103,7 @@
       },
       "block_order": [
         "title",
+        "928ad804-ad28-4a5b-b79f-da6847510aa6",
         "35b6a1b6-897f-4ec2-8a90-0ee9d1268461",
         "77583453-22ab-4d76-a4e7-deb0ed349154",
         "price",
