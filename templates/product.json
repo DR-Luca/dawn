@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Descrizione",
             "icon": "price_tag",
-            "content": "<p>{{ product.metafields.description.one | metafield_tag }}<\/p>",
+            "content": "<p>product.metafields.details.<\/p>",
             "page": ""
           }
         },
@@ -120,7 +120,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "stacked",
         "media_size": "small",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
