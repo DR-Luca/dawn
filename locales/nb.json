@@ -51,7 +51,8 @@
     "slider": {
       "of": "av",
       "next_slide": "Bla til høyre",
-      "previous_slide": "Bla til venstre"
+      "previous_slide": "Bla til venstre",
+      "name": "Glidefelt"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Hopp til produktinformasjon",
     "total_reviews": "totale omtaler",
     "star_reviews_info": "{{ rating_value }} av {{ rating_max }} stjerner",
-    "collapsible_content_title": "Sammenleggbart innhold"
+    "collapsible_content_title": "Sammenleggbart innhold",
+    "complementary_products": "Komplimentære produkter"
   },
   "blogs": {
     "article": {
@@ -146,7 +148,15 @@
       },
       "view_full_details": "Vis alle detaljer",
       "include_taxes": "Avgift inkludert.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beregnes ved kassen."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes ved kassen.",
+      "choose_options": "Velg alternativer",
+      "choose_product_options": "Velg alternativer for {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [Utilgjengelig]",
+      "variant_sold_out_or_unavailable": "Varianten er utsolgt eller utilgjengelig"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Mediegalleri"
@@ -261,8 +271,7 @@
     },
     "featured_collection": {
       "view_all": "Vis alle",
-      "view_all_label": "Vis alle produktene i {{ collection_name }}-samlingen",
-      "slider": "Glidefelt"
+      "view_all_label": "Vis alle produktene i {{ collection_name }}-samlingen"
     },
     "collection_list": {
       "view_all": "Vis alle"
@@ -397,7 +406,7 @@
     },
     "reset_password": {
       "title": "Tilbakestill kontopassord",
-      "subtext": "Skriv inn et nytt passord for {{ email }}",
+      "subtext": "Angi et nytt passord",
       "password": "Passord",
       "password_confirm": "Bekreft passord",
       "submit": "Tilbakestill passord"

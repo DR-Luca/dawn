@@ -51,7 +51,8 @@
     "slider": {
       "of": "\/",
       "next_slide": "Következő dia",
-      "previous_slide": "Előző dia"
+      "previous_slide": "Előző dia",
+      "name": "Csúszka"
     }
   },
   "newsletter": {
@@ -73,8 +74,14 @@
     "loading": "Betöltés folyamatban…",
     "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
     "total_reviews": "összes értékelés",
+<<<<<<< HEAD
     "star_reviews_info": "{{ rating_max }}\/{{ rating_value }} csillag",
     "collapsible_content_title": "Összecsukható tartalom"
+=======
+    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag",
+    "collapsible_content_title": "Összecsukható tartalom",
+    "complementary_products": "Kiegészítő termékek"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
   },
   "blogs": {
     "article": {
@@ -146,7 +153,15 @@
       },
       "view_full_details": "Minden részlet megtekintése",
       "include_taxes": "Tartalmazza az adót.",
+<<<<<<< HEAD
       "shipping_policy_html": "A <a href=\"{{ link }}\">szállítási költséget<\/a> a megrendeléskor számítjuk ki."
+=======
+      "shipping_policy_html": "A <a href=\"{{ link }}\">szállítási költséget</a> a megrendeléskor számítjuk ki.",
+      "choose_options": "Válassz a lehetőségek közül",
+      "choose_product_options": "Termékváltozatok – {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [nincs készleten]",
+      "variant_sold_out_or_unavailable": "A változat elfogyott vagy nincs készleten"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Médiatár"
@@ -261,8 +276,7 @@
     },
     "featured_collection": {
       "view_all": "Az összes megtekintése",
-      "view_all_label": "Az ebben a kollekcióban szereplő összes termék megtekintése: {{ collection_name }}",
-      "slider": "Csúszka"
+      "view_all_label": "Az ebben a kollekcióban szereplő összes termék megtekintése: {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Az összes megtekintése"
@@ -372,7 +386,7 @@
     },
     "reset_password": {
       "title": "Új fiókjelszó létrehozása",
-      "subtext": "Írd be az ehhez az e-mail-címhez tartozó új jelszót: {{ email }}.",
+      "subtext": "Írd be az új jelszót",
       "password": "Jelszó",
       "password_confirm": "Jelszó megerősítése",
       "submit": "Új jelszó készítése"

@@ -51,7 +51,8 @@
     "slider": {
       "of": "\/",
       "next_slide": "Sağa kaydır",
-      "previous_slide": "Sola kaydır"
+      "previous_slide": "Sola kaydır",
+      "name": "Kaydırıcı"
     }
   },
   "newsletter": {
@@ -73,8 +74,14 @@
     "loading": "Yükleniyor...",
     "skip_to_product_info": "Ürün bilgisine atla",
     "total_reviews": "toplam değerlendirme",
+<<<<<<< HEAD
     "star_reviews_info": "{{ rating_value }}\/{{ rating_max }} yıldız",
     "collapsible_content_title": "Daraltılabilir içerik"
+=======
+    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} yıldız",
+    "collapsible_content_title": "Daraltılabilir içerik",
+    "complementary_products": "Tamamlayıcı ürünler"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
   },
   "blogs": {
     "article": {
@@ -146,7 +153,15 @@
       },
       "view_full_details": "Tüm ayrıntıları görüntüle",
       "include_taxes": "Vergi dahildir.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
+      "choose_options": "Seçenekleri belirle",
+      "choose_product_options": "{{ product_name }} için seçenekleri belirle",
+      "value_unavailable": "{{ option_value }} [Kullanılamıyor]",
+      "variant_sold_out_or_unavailable": "Varyasyon tükendi veya kullanılamıyor"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Medya galerisi"
@@ -261,8 +276,7 @@
     },
     "featured_collection": {
       "view_all": "Tümünü görüntüle",
-      "view_all_label": "{{ collection_name }} koleksiyonundaki tüm ürünleri görüntüle",
-      "slider": "Kaydırıcı"
+      "view_all_label": "{{ collection_name }} koleksiyonundaki tüm ürünleri görüntüle"
     },
     "collection_list": {
       "view_all": "Tümünü görüntüle"
@@ -372,7 +386,7 @@
     },
     "reset_password": {
       "title": "Hesap parolasını sıfırlayın",
-      "subtext": "{{ email }} için yeni bir parola girin",
+      "subtext": "Yeni bir parola girin",
       "password": "Parola",
       "password_confirm": "Parolayı doğrula",
       "submit": "Parolayı sıfırla"

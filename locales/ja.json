@@ -51,7 +51,8 @@
     "slider": {
       "of": "の",
       "next_slide": "右にスライド",
-      "previous_slide": "左にスライド"
+      "previous_slide": "左にスライド",
+      "name": "スライダー"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "商品情報にスキップ",
     "total_reviews": "レビュー数の合計",
     "star_reviews_info": "{{ rating_max }}つ星中{{ rating_value }}つ",
-    "collapsible_content_title": "折りたたみ可能なコンテンツ"
+    "collapsible_content_title": "折りたたみ可能なコンテンツ",
+    "complementary_products": "付属商品"
   },
   "blogs": {
     "article": {
@@ -146,7 +148,15 @@
       },
       "view_full_details": "詳細を表示する",
       "include_taxes": "税込み。",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。"
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
+      "choose_options": "オプションを選択",
+      "choose_product_options": "{{ product_name }}のオプションを選択する",
+      "value_unavailable": "{{ option_value }}は販売できません",
+      "variant_sold_out_or_unavailable": "バリエーションは売り切れているか販売できません"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "メディアギャラリー"
@@ -154,8 +164,13 @@
     "facets": {
       "apply": "適用",
       "clear": "クリア",
+<<<<<<< HEAD
       "clear_all": "すべてクリア",
       "from": "差出人",
+=======
+      "clear_all": "すべてを削除する",
+      "from": "から",
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
       "filter_and_sort": "絞り込みと並び替え",
       "filter_by_label": "絞り込み:",
       "filter_button": "絞り込む",
@@ -175,8 +190,16 @@
       "reset": "リセット",
       "sort_button": "並び替え",
       "sort_by_label": "並び替え: ",
+<<<<<<< HEAD
       "to": "受取人",
       "clear_filter": "絞り込みをクリア"
+=======
+      "to": "まで",
+      "clear_filter": "絞り込みを削除する",
+      "filter_selected_accessibility": "{{ type }} ({{ count }}件のフィルターを選択済み)",
+      "show_more": "さらに表示する",
+      "show_less": "表示を減らす"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     }
   },
   "templates": {
@@ -261,8 +284,7 @@
     },
     "featured_collection": {
       "view_all": "すべてを表示する",
-      "view_all_label": "{{ collection_name }}コレクションの商品をすべて表示する",
-      "slider": "スライダー"
+      "view_all_label": "{{ collection_name }}コレクションの商品をすべて表示する"
     },
     "collection_list": {
       "view_all": "すべてを表示する"
@@ -372,7 +394,7 @@
     },
     "reset_password": {
       "title": "アカウントのパスワードをリセットする",
-      "subtext": "{{ email }}の新しいパスワードを入力してください",
+      "subtext": "新しいパスワードを入力してください",
       "password": "パスワード",
       "password_confirm": "パスワードを確認する",
       "submit": "パスワードをリセットする"

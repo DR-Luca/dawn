@@ -51,7 +51,8 @@
     "slider": {
       "of": "van",
       "next_slide": "Naar rechts schuiven",
-      "previous_slide": "Naar links schuiven"
+      "previous_slide": "Naar links schuiven",
+      "name": "Schuifregelaar"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Ga direct naar productinformatie",
     "total_reviews": "totaal aantal recensies",
     "star_reviews_info": "{{ rating_value }} van de {{ rating_max }} sterren",
-    "collapsible_content_title": "Inklapbare content"
+    "collapsible_content_title": "Inklapbare content",
+    "complementary_products": "Aanvullende producten"
   },
   "blogs": {
     "article": {
@@ -146,7 +148,15 @@
       },
       "view_full_details": "Alle details bekijken",
       "include_taxes": "Inclusief btw.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij de checkout."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij de checkout.",
+      "choose_options": "Opties kiezen",
+      "choose_product_options": "Opties kiezen voor {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [Niet beschikbaar]",
+      "variant_sold_out_or_unavailable": "Variant uitverkocht of niet beschikbaar"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Mediagalerij"
@@ -261,8 +271,7 @@
     },
     "featured_collection": {
       "view_all": "Alles bekijken",
-      "view_all_label": "Bekijk alle producten in de collectie {{ collection_name }}",
-      "slider": "Schuifregelaar"
+      "view_all_label": "Bekijk alle producten in de collectie {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Alles bekijken"
@@ -372,7 +381,7 @@
     },
     "reset_password": {
       "title": "Account-wachtwoord opnieuw instellen",
-      "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
+      "subtext": "Voer een nieuw wachtwoord in",
       "password": "Wachtwoord",
       "password_confirm": "Wachtwoord bevestigen",
       "submit": "Wachtwoord opnieuw instellen"

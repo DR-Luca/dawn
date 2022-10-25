@@ -51,7 +51,8 @@
     "slider": {
       "of": "af",
       "next_slide": "Skub til højre",
-      "previous_slide": "Skub til venstre"
+      "previous_slide": "Skub til venstre",
+      "name": "Diasshow"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Gå til produktoplysninger",
     "total_reviews": "anmeldelser i alt",
     "star_reviews_info": "{{ rating_value }} ud af {{ rating_max }} stjerner",
-    "collapsible_content_title": "Indhold, der kan skjules"
+    "collapsible_content_title": "Indhold, der kan skjules",
+    "complementary_products": "Supplerende produkter"
   },
   "blogs": {
     "article": {
@@ -146,7 +148,15 @@
       },
       "view_full_details": "Se komplette oplysninger",
       "include_taxes": "Inklusive skat.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Levering</a> beregnes ved betaling.",
+      "choose_options": "Vælg muligheder",
+      "choose_product_options": "Vælg muligheder for {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [Utilgængelig]",
+      "variant_sold_out_or_unavailable": "Varianten er udsolgt eller utilgængelig"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Mediegalleri"
@@ -261,8 +271,7 @@
     },
     "featured_collection": {
       "view_all": "Se alle",
-      "view_all_label": "Se alle produkter i kollektionen {{ collection_name }}",
-      "slider": "Diasshow"
+      "view_all_label": "Se alle produkter i kollektionen {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Se alle"
@@ -372,7 +381,7 @@
     },
     "reset_password": {
       "title": "Forny adgangskode til konto",
-      "subtext": "Indtast en ny adgangskode for {{ email }}",
+      "subtext": "Indtast en ny adgangskode",
       "password": "Adgangskode",
       "password_confirm": "Bekræft adgangskode",
       "submit": "Nulstil adgangskode"

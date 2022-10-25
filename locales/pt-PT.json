@@ -51,7 +51,8 @@
     "slider": {
       "of": "de",
       "next_slide": "Deslizar para a direita",
-      "previous_slide": "Deslizar para a esquerda"
+      "previous_slide": "Deslizar para a esquerda",
+      "name": "Slider"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Saltar para a informação do produto",
     "total_reviews": "análises totais",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelas",
-    "collapsible_content_title": "Conteúdo recolhível"
+    "collapsible_content_title": "Conteúdo recolhível",
+    "complementary_products": "Produtos complementares"
   },
   "blogs": {
     "article": {
@@ -147,7 +149,15 @@
       },
       "view_full_details": "Ver detalhes completos",
       "include_taxes": "Imposto incluído.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Envio</a> calculado na finalização da compra.",
+      "choose_options": "Escolher opções",
+      "choose_product_options": "Escolha opções para {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [Indisponível]",
+      "variant_sold_out_or_unavailable": "Variante esgotada ou indisponível"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Galeria de conteúdo multimédia"
@@ -268,8 +278,7 @@
     },
     "featured_collection": {
       "view_all": "Ver tudo",
-      "view_all_label": "Ver todos os produtos da coleção {{ collection_name }}",
-      "slider": "Slider"
+      "view_all_label": "Ver todos os produtos da coleção {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Ver tudo"
@@ -404,7 +413,7 @@
     },
     "reset_password": {
       "title": "Repor palavra-passe da conta",
-      "subtext": "Insira uma nova palavra-passe para {{ email }}",
+      "subtext": "Insira uma nova palavra-passe",
       "password": "Palavra-passe",
       "password_confirm": "Confirmar palavra-passe",
       "submit": "Repor palavra-passe"

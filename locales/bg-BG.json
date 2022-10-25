@@ -51,7 +51,8 @@
     "slider": {
       "of": "от",
       "next_slide": "Плъзгане надясно",
-      "previous_slide": "Плъзгане наляво"
+      "previous_slide": "Плъзгане наляво",
+      "name": "Плъзгач"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Прескочи към информацията за продукта",
     "total_reviews": "общ брой мнения",
     "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди",
-    "collapsible_content_title": "Съдържание, което може да се свива"
+    "collapsible_content_title": "Съдържание, което може да се свива",
+    "complementary_products": "Допълващи продукти"
   },
   "blogs": {
     "article": {
@@ -146,7 +148,15 @@
       },
       "view_full_details": "Покажи пълните подробности",
       "include_taxes": "С включени данъци.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
+      "choose_options": "Изберете опции",
+      "choose_product_options": "Изберете опции за {{ product_name }}",
+      "value_unavailable": "{{ option_value }} [Неналично]",
+      "variant_sold_out_or_unavailable": "Вариантът е изчерпан или неналичен."
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Мултимедийна галерия"
@@ -261,8 +271,7 @@
     },
     "featured_collection": {
       "view_all": "Покажи всички",
-      "view_all_label": "Покажи всички продукти в колекция {{ collection_name }}",
-      "slider": "Плъзгач"
+      "view_all_label": "Покажи всички продукти в колекция {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "Покажи всички"
@@ -366,7 +375,7 @@
     },
     "reset_password": {
       "title": "Подновяване на паролата за профила",
-      "subtext": "Въведете нова парола за {{ email }}",
+      "subtext": "Въведете нова парола",
       "password": "Парола",
       "password_confirm": "Потвърждаване на паролата",
       "submit": "Подновяване на паролата"

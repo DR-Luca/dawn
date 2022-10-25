@@ -51,7 +51,8 @@
     "slider": {
       "of": "iš",
       "next_slide": "Slinkti dešinėn",
-      "previous_slide": "Slinkti kairėn"
+      "previous_slide": "Slinkti kairėn",
+      "name": "Slankiklis"
     }
   },
   "newsletter": {
@@ -74,7 +75,8 @@
     "skip_to_product_info": "Pereiti prie informacijos apie gaminį",
     "total_reviews": "iš viso apžvalgų",
     "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių",
-    "collapsible_content_title": "Suskleidžiamas turinys"
+    "collapsible_content_title": "Suskleidžiamas turinys",
+    "complementary_products": "Papildomi produktai"
   },
   "blogs": {
     "article": {
@@ -148,7 +150,15 @@
       },
       "view_full_details": "Žiūrėti visą informaciją",
       "include_taxes": "Mokesčiai įtraukti.",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant."
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant.",
+      "choose_options": "Rinktis variantus",
+      "choose_product_options": "Rinktis {{ product_name }} variantus",
+      "value_unavailable": "{{ option_value }} [Neturime]",
+      "variant_sold_out_or_unavailable": "Prekė išparduota arba jos neturime"
+>>>>>>> 339c84fdea847b239b17c8a1feded9a6df8a31ea
     },
     "modal": {
       "label": "Medijų galerija"
@@ -275,8 +285,7 @@
     },
     "featured_collection": {
       "view_all": "Žr. viską",
-      "view_all_label": "Žr. visus kolekcijos „{{ collection_name }}“ gaminius",
-      "slider": "Slankiklis"
+      "view_all_label": "Žr. visus kolekcijos „{{ collection_name }}“ gaminius"
     },
     "collection_list": {
       "view_all": "Žr. viską"
@@ -411,7 +420,7 @@
     },
     "reset_password": {
       "title": "Nustatyti paskyros slaptažodį iš naujo",
-      "subtext": "Įveskite naują paskyros {{ email }} slaptažodį",
+      "subtext": "Įveskite naują slaptažodį",
       "password": "Slaptažodis",
       "password_confirm": "Patvirtinti slaptažodį",
       "submit": "Nustatyti slaptažodį iš naujo"
