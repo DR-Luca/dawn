@@ -64,13 +64,15 @@
         "a154e8c9-0268-4f62-96e7-d4bbaedac75e"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 9,
-        "show_text_below": true,
-        "accessibility_info": "Dermalogica - I nostri prodotti e servizi in evidenza"
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "1647423259eac246cb": {
@@ -79,12 +81,8 @@
         "1647423259aa8d28e1-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Professional-Grade_180x_6a9589be-6a8b-4105-ae36-d494be17bbea.png",
-            "svg_icon": "",
-            "title": "",
-            "text": "<p>Più di 35 anni di esperienza professionale<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
           }
         },
         "1647423259aa8d28e1-1": {

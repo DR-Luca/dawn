@@ -2,8 +2,8 @@
 {{ 'section-featured-product.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
-{{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -20,8 +20,6 @@
 {%- endstyle -%}
 
 <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
-
-<link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 {%- liquid
   assign product = section.settings.product
@@ -66,7 +64,10 @@
           aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
           data-desktop-layout="stacked"
         >
-          <div id="GalleryViewer-{{ section.id }}" class="product__media-list">
+          <div
+            id="GalleryViewer-{{ section.id }}"
+            class="product__media-list{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          >
             {%- if product.selected_or_first_available_variant.featured_media != null -%}
               {%- assign media = product.selected_or_first_available_variant.featured_media -%}
               <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
@@ -123,7 +124,7 @@
           {%- endif -%}
         </media-gallery>
       </div>
-      <div class="product__info-wrapper grid__item">
+      <div class="product__info-wrapper grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <product-info
           id="ProductInfo-{{ section.id }}"
           class="product__info-container"
@@ -138,7 +139,7 @@
                 {% render block %}
               {%- when 'text' -%}
                 <p
-                  class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                  class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   {{- block.settings.text -}}
@@ -160,9 +161,9 @@
                     price_class: 'price--large'
                   -%}
                 </div>
-                {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
                   <div class="product__tax caption rte">
-                    {%- if shop.taxes_included -%}
+                    {%- if cart.taxes_included -%}
                       {{ 'products.product.include_taxes' | t }}
                     {%- endif -%}
                     {%- if shop.shipping_policy.body != blank -%}
@@ -190,6 +191,7 @@
                 </p>
               {%- when 'quantity_selector' -%}
                 <div
+                  id="Quantity-Form-{{ section.id }}"
                   class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
                   {{ block.shopify_attributes }}
                 >
@@ -199,9 +201,9 @@
                     | item_count_for_variant: product.selected_or_first_available_variant.id
                   -%}
                   {% # theme-check-enable %}
-                  <label class="form__label" for="Quantity-{{ section.id }}">
+                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
-                    <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
+                    <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
                       <span class="loading-overlay hidden">
                         <span class="loading-overlay__spinner">
                           <svg
@@ -252,7 +254,7 @@
                       {% render 'icon-plus' %}
                     </button>
                   </quantity-input>
-                  <div class="quantity__rules caption">
+                  <div class="quantity__rules caption no-js-hidden">
                     {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                       <span class="divider">
                         {{-
@@ -283,9 +285,19 @@
                 {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
                 {% render 'share-button', block: block, share_link: share_url %}
               {%- when 'variant_picker' -%}
-                {% render 'product-variant-picker', block: block, product: product, update_url: false %}
+                {% render 'product-variant-picker',
+                  product: product,
+                  block: block,
+                  product_form_id: product_form_id,
+                  update_url: false
+                %}
               {%- when 'buy_buttons' -%}
-                {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id -%}
+                {%- render 'buy-buttons',
+                  block: block,
+                  product: product,
+                  product_form_id: product_form_id,
+                  section_id: section.id
+                -%}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating' -%}
@@ -306,7 +318,7 @@
                   >
                     <span
                       aria-hidden="true"
-                      class="rating-star color-icon-{{ settings.accent_icons }}"
+                      class="rating-star"
                       style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
                     ></span>
                   </div>
@@ -349,7 +361,10 @@
             aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
             data-desktop-layout="stacked"
           >
-            <div id="GalleryViewer-{{ section.id }}-right" class="product__media-list">
+            <div
+              id="GalleryViewer-{{ section.id }}-right"
+              class="product__media-list{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            >
               {%- if product.selected_or_first_available_variant.featured_media != null -%}
                 {%- assign media = product.selected_or_first_available_variant.featured_media -%}
                 <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
@@ -523,7 +538,7 @@
       "name": "t:sections.featured-product.blocks.text.name",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "text",
           "default": "Text block",
           "label": "t:sections.featured-product.blocks.text.settings.text.label"
@@ -909,7 +924,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_1.label"
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading_1",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_1.label",
@@ -1105,7 +1120,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_2.label"
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading_2",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_2.label",
@@ -1301,7 +1316,7 @@
           "label": "t:sections.main-product.blocks.icon_with_text.settings.image_3.label"
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading_3",
           "default": "Heading",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
@@ -1317,32 +1332,10 @@
       "label": "t:sections.featured-product.settings.product.label"
     },
     {
-      "type": "select",
+      "type": "color_scheme",
       "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
     },
     {
       "type": "checkbox",
@@ -1379,7 +1372,7 @@
     {
       "type": "checkbox",
       "id": "constrain_to_viewport",
-      "default": false,
+      "default": true,
       "label": "t:sections.main-product.settings.constrain_to_viewport.label"
     },
     {

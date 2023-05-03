@@ -136,7 +136,8 @@
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "stacked",
-        "media_size": "small",
+        "media_size": "large",
+        "constrain_to_viewport": true,
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -144,10 +145,6 @@
         "padding_bottom": 12
       }
     },
-<<<<<<< HEAD
-    "product-recommendations": {
-      "type": "product-recommendations",
-=======
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -228,7 +225,6 @@
     },
     "related-products": {
       "type": "related-products",
->>>>>>> 01a0cb4356065befcb80b7e0cc4eed2c34821f60
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -247,12 +243,8 @@
   },
   "order": [
     "main",
-<<<<<<< HEAD
-    "product-recommendations"
-=======
     "image-with-text",
     "multicolumn",
     "related-products"
->>>>>>> 01a0cb4356065befcb80b7e0cc4eed2c34821f60
   ]
 }
